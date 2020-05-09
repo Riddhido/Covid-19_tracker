@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".faq">
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/faq_rec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_arrow_back"
+        android:id="@+id/back_arrow_faq"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserrat_semibold"
+        android:gravity="center"
+        android:text="@string/Faq"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/ques1"
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/ques4"/>
+
+            <ImageView
+            android:id="@+id/ques12"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+                android:layout_marginTop="0dp"
+            android:src="@drawable/ques1"/>
+
+            <ImageView
+                android:id="@+id/ques3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/ques5"/>
+
+            <ImageView
+                android:id="@+id/ques4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/ques2"/>
+
+            <ImageView
+                android:id="@+id/ques5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/ques6"/>
+
+            <ImageView
+            android:id="@+id/ques6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/ques3"/>
+
+            <ImageView
+                android:id="@+id/ques7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/ques9"/>
+
+            <ImageView
+                android:id="@+id/ques8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/ques10"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#052A6A"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Information from WHO"
+            android:textColor="#052A6A"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/montserrat_regular"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="For More information visit:"
+                android:textColor="#052A6A"/>
+            <TextView
+                android:id="@+id/pdfLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#502A6A"
+                android:text="@string/pdf_link"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textAlignment="center"/>
+        </LinearLayout>
+</ScrollView>
+</RelativeLayout>

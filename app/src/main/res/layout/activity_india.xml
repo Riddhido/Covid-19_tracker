@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".India">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:id="@+id/AppBarLinear"
+        android:background="@drawable/faq_rec">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_arrow_back"
+            android:id="@+id/back_arrow_india"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="@string/AffectedStates"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/state"
+        android:orientation="horizontal"
+        android:layout_below="@id/AppBarLinear">
+
+        <TextView
+            android:id="@+id/tvStateName"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="@string/State"
+            android:textColor="#052A6A" />
+
+        <TextView
+            android:id="@+id/tvConfirmed"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_semibold"
+            android:textSize="12sp"
+            android:padding="2dp"
+            android:text="@string/Confirmed"
+            android:textColor="@color/colorTotalConfirmed" />
+
+        <TextView
+            android:id="@+id/tvRecovered"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_medium"
+            android:textSize="12sp"
+            android:padding="2dp"
+            android:text="@string/Recovered"
+            android:textColor="@color/colorTotalRecovered" />
+
+
+        <TextView
+            android:id="@+id/tvDeaths"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="@string/Death"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/colorTotalDeaths" />
+
+
+        <TextView
+            android:id="@+id/tvActive"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="@string/Active"
+            android:textColor="@color/colorTotalActive" />
+    </LinearLayout>
+
+
+    <ListView
+            android:layout_below="@id/Linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listViewState"
+            android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

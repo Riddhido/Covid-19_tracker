@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndiaDashboard">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_arrow_back"
+        android:id="@+id/back_arrow_india_dashboard"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/indiacasesdashboard"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dashboard"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:id="@+id/First">
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/TotalCasesLinear"
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorTotalConfirmed"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvLabelTotalConfirmed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="@string/Total"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvTotalConfirmed"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                tools:text="@string/Totalno" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/TotalDeathLinear"
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorTotalDeaths"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvLabelTotalDeaths"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="@string/TotalDeaths"
+                android:layout_marginTop="10sp"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvTotalDeaths"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                tools:text="@string/Totalno" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_below="@+id/First">
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/TotalRecoveredLinear"
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorTotalRecovered"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvLabelTotalRecovered"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="@string/TotalRecovered"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvTotalRecovered"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textColor="#fff"
+                android:textSize="28sp"
+                tools:text="@string/Totalno" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/ActiveCasesLinear"
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorTotalActive"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvLabelActiveCases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="@string/ActiveCases"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvActiveCases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                tools:text="@string/Totalno" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progess_bar"
+        android:layout_centerInParent="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:id="@+id/confirmed"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_descrip">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/barchart"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textColor="#052A6A"
+                android:fontFamily="@font/montserrat_medium"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/tvzoom"
+                android:fontFamily="@font/montserrat_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zoom"
+                android:textSize="15sp"
+                android:textColor="#052A6A"
+                android:textAlignment="center"/>
+    <com.github.mikephil.charting.charts.BarChart
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/bar_chart"/>
+        </LinearLayout>
+
+            <Button
+                android:id="@+id/stateDetails"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/StateDetails"
+                android:fontFamily="@font/montserrat_regular"
+                android:layout_margin="20dp"
+                android:background="#052A6A"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

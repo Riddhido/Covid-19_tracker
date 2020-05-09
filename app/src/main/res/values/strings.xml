@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">COVID-19 Tracker</string>
+    <string name="Total">Total Confirmed</string>
+    <string name="Totalno">162387</string>
+    <string name="TotalDeaths">Total Deaths</string>
+    <string name="TotalRecovered">Total Recovered</string>
+    <string name="ActiveCases">Active Cases</string>
+    <string name="Do">PREVENTION</string>
+    <string name="Transmission">Transmission</string>
+    <string name="clicktransmit">Click to know how Coronavirus spreads</string>
+    <string name="KnowPrevent">Know the Do\'s and Don\'ts in this situation</string>
+    <string name="AllAbout">All About COVID-19</string>
+    <string name="clickSymp">Click to know some symptoms of corona virus</string>
+    <string name="clickprevent">Click to know some do\'s and don\'ts in this situation</string>
+    <string name="knowAbout">Know About Symptoms,Prevention And Transmission of Coronavirus with some FAQs</string>
+    <string name="FAQ">FAQs</string>
+    <string name="Clickother">Click for some other information</string>
+    <string name="clickfaq">Click here to know some Frequently Asked Questions and their answers</string>
+    <string name="Wash_hands">Wash Your Hands Regularly</string>
+    <string name="Wear_Masks">Wear Mask</string>
+    <string name="social_distance">Maintain Social Distancing</string>
+    <string name="Stay_home">Stay Home</string>
+    <string name="prevent">Prevention</string>
+    <string name="Avoid_touching">Avoid Touching Your Mouth,Nose and Eyes</string>
+    <string name="Sanitize">Sanitize Your Surrounding</string>
+    <string name="Cover">Cover Your Mouth While Sneezing</string>
+    <string name="covid">COVID-19</string>
+    <string name="search">Search</string>
+    <string name="country">Country</string>
+    <string name="Affected">Affected Countries</string>
+    <string name="DetailsW">Details</string>
+    <string name="TodayCases">Today Cases</string>
+    <string name="TodayDeath">Today Deaths</string>
+    <string name="Critical">Critical</string>
+    <string name="Continents">Continent</string>
+    <string name="Confirmed">Total</string>
+    <string name="AffectedStates">Affected States</string>
+    <string name="State">State</string>
+    <string name="Recovered">Recovered</string>
+    <string name="Death">Deaths</string>
+    <string name="Active">Active</string>
+    <string name="Symptoms">Symptoms</string>
+    <string name="Fever">Fever</string>
+    <string name="Cough">Cough</string>
+    <string name="Tired">Tiredness</string>
+    <string name="Shortness">Shortness of breath</string>
+    <string name="Ache">Aches and Pains</string>
+    <string name="SoreThroat">Sore Throat</string>
+    <string name="Faq">Frequently Asked Questions</string>
+    <string name="CommonSymp">Commom Symptoms</string>
+    <string name="OtherSymp">Other Symptoms</string>
+    <string name="Covid">COVID-19 TRACKER</string>
+    <string name="track">Keep Track Of COVID-19 Cases</string>
+    <string name="allabout">All About</string>
+    <string name="pmcares">PM CARES</string>
+    <string name="donation">Click Here For Donation</string>
+    <string name="trackcases">Track Cases</string>
+    <string name="inworld">in the World</string>
+    <string name="inIndia">in India</string>
+    <string name="cope">Cope up</string>
+    <string name="situation">With this situation</string>
+    <string name="CopeUp">COPE UP WITH YOUR STRESS</string>
+    <string name="Helpline">Helpline</string>
+    <string name="Numbers">Numbers</string>
+    <string name="connect">Connect in</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="withG">with MyGov</string>
+    <string name="withwho">with WHO</string>
+    <string name="OtherInfo">People with mild symptoms who are otherwise healthy should self-isolate and contact their medical provider or a COVID-19 information line for advice on testing and referral.People with fever, cough or difficulty breathing should call their doctor and seek medical attention.</string>
+    <string name="Diarrhoea">Also few people will report diarrhoea, nausea or a runny nose.</string>
+    <string name="Sym">The COVID-19 virus affects different people in different ways.  COVID-19 is a respiratory disease and most infected people will develop mild to moderate symptoms and recover without requiring special treatment.  People who have underlying medical conditions and those over 60 years old have a higher risk of developing severe disease and death.</string>
+
+    <string name="worlddashbord">WORLD CASES DASHBOARD</string>
+    <string name="indiacasesdashboard">INDIA CASES DASHBOARD</string>
+    <string name="affectedcountries">Affected Countries</string>
+    <string name="Details">Click here for affected country details</string>
+    <string name="StateDetails">Click here to know State Cases</string>
+    <string name="PieChart">PIE CHART</string>
+
+
+    <string name="barchart">Bar Graph(date-wise)of Confirmed Cases</string>
+    <string name="zoom">(Zoom horizontally using two fingers)</string>
+    <string name="barchartdeaths">Bar Graph(date-wise)of Deaths</string>
+    <string name="barchartrecovered">Bar Graph(date-wise)of Recovered</string>
+    <!--faq-->
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+
+
+    <!--State-->
+    <string name="Andhra">Andhra Pradesh</string>
+
+<string name="Coughing">Coughing and Sneezing</string>
+    <string name="Shaking">Close Contact with people such as Handshaking,followed by touching you own face </string>
+    <string name="Touching">Touching an object or surface with virus on it</string>
+    <string name="pdf_link">https://www.mohfw.gov.in/pdf/FAQ.pdf</string>
+    <string name="topic">COVID-19 spreads mainly by droplets produced as a result of coughing or sneezing of a COVID-19 infected person. This can happen in ways such as:</string>
+    <string name="spread">The incubation period of COVID 19 (time between getting the infection and showing symptoms) is 1 to 14 days.\nSome people with the infection, but without any serious symptoms can also spread the disease.</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.riddhi.coronatracker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Transmission"
+            android:parentActivityName=".allAboutCovidActivity"></activity>
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CopeUp"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Helpline"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".IndiaDashboard"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".faq"
+            android:parentActivityName=".allAboutCovidActivity" />
+        <activity
+            android:name=".allAboutCovidActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Symtomps"
+            android:parentActivityName=".allAboutCovidActivity" />
+        <activity
+            android:name=".WorldDetail"
+            android:parentActivityName=".World" />
+        <activity
+            android:name=".World"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".India"
+            android:parentActivityName=".IndiaDashboard" />
+        <activity
+            android:name=".DoActivity"
+            android:parentActivityName=".allAboutCovidActivity" />
+        <activity
+            android:name=".Dashboard"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
